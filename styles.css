@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-color: #000; /* Start with a dark background */
+    transition: background-color 3s ease-in-out;
+}
+
+.container {
+    text-align: center;
+    color: #fff;
+}
+
+.message {
+    font-size: 2em;
+    margin: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.gif-container img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
